@@ -1,6 +1,7 @@
 {
   "name": "kingame96",
 	"displayName": "QPROPERTY_GENERATOR",
+	"publisher": "truongthinh",
 	"description": "Helping generate QPROPERTY and related function",
 	"version": "0.0.1",
 	"engines": {
@@ -54,6 +55,10 @@
         "mocha": "^9.2.1",
         "typescript": "^4.5.5",
         "@vscode/test-electron": "^2.1.2"
-    }
+    },
+	"bugs": {
+		"url": "https://github.com/kingame96/QPROPERTY_GENERATOR_VSCODE_EXTENSION/issues"
+	},
+	"homepage": "https://github.com/kingame96/QPROPERTY_GENERATOR_VSCODE_EXTENSION#readme"
 
 }
