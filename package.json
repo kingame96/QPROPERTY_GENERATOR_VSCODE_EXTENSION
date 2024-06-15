@@ -35,6 +35,10 @@
 				}
 			]}
 	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kingame96/QPROPERTY_GENERATOR_VSCODE_EXTENSION.git"
+	},
 	"scripts": {
 		"lint": "eslint .",
 		"pretest": "npm run lint",
