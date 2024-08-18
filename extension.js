@@ -38,11 +38,11 @@ function activate(context) {
 				qproperty += (writeFunc + "\n");
 
 				let slotFunc = notifyProperty + "();\n";
-				qproperty += (slotFunc + "\n");
+				qproperty += ("void " + slotFunc + "\n");
 
 				let getFuncDeclaration 	= variableType + " " + variableName + "() const\n";
 				getFuncDeclaration		+= "{\n"
-										+  "	return " +  privateVariable
+										+  "	return " +  memberVariable + ";\n"
 										+  "}\n";
 				qproperty += (getFuncDeclaration + "\n");
 

@@ -3,7 +3,7 @@
 	"displayName": "QPROPERTY_GENERATOR",
 	"publisher": "truongthinh",
 	"description": "Helping generate QPROPERTY and related function",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"engines": {
 		"vscode": "^1.85.1"
 	},
